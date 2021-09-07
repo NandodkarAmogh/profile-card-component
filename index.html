@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+        *, *::after, *::before {
+    box-sizing: border-box;
+    margin: 10;
+    padding: 0;
+  }
+        
+        body{
+            font-family: 'Kumbh Sans', sans-serif;
+            height: 100vh;
+            display: flex;
+            justify-content: center; 
+            align-items: center;
+            background: url(./images/bg-pattern-top.svg),url(./images/bg-pattern-bottom.svg);
+            background-repeat: no-repeat no-repeat;
+            background-position: right 50vw bottom 50vh, 50vw 50vh;
+            background-color: hsl(185, 75%, 39%);
+
+        }
+
+        .profile-card{
+            max-width: 350px;
+            width: '90%';
+            background: url(./images/bg-pattern-card.svg) top no-repeat;
+            background-color: white;
+            border-radius: 18px;
+            box-shadow:0 5px 40px 0px hsl(0, 0%, 40%);
+        }
+
+        img{
+            border-radius: 50%;
+            border: white solid 4px;
+            display: block;
+            margin: 6rem 6rem 0rem;
+
+        }
+        h1{
+            font-size: 18px;
+            font-weight: 700;
+            color:  hsl(229, 23%, 23%);
+            text-align: center;
+        }
+
+        .age, .country-name {
+            font-weight: 400;
+            color: hsl(227, 10%, 46%);
+        }
+        .country-name{
+            text-align: center;
+        }
+        .profile-info{
+            margin-top: 25px;
+            border-top: lightgray solid 1px;
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            /* padding: 20px */
+
+
+        }
+        h2{
+            font-size: 18px;
+            color: hsl(229, 23%, 23%) ;
+            font-weight: 700;
+            text-align: center;
+
+        }
+        p{
+            font-weight: 400;
+            font-size: 12px;
+            color: hsl(227, 10%, 46%);
+            text-align: center;
+        }
+        @media (max-width: 1400px){
+            .profile-card{
+            max-width: 600px;
+            }
+        }
+        @media (max-width:375px){
+            max-width: 360px;
+        }
+    </style>
+  </head>
+  <body>
+    <main class="profile-card">
+        <img src="images/image-victor.jpg" alt="profile photo of Victor Crest">
+        <h1> Victor Crest <span class="age">26</span></h1>
+        <p class="country-name">London</p>
+        <div class="profile-info">
+            <div>
+                <h2>80K</h2>
+                <p>Followers</p>
+            </div>
+            <div>
+                <h2>803k</h2>
+                <p>Likes</p>
+            </div>
+            <div>
+                <h2>1.4k</h2>
+                <p>Photos</p>
+            </div>
+        </div>
+    </main>
+  </body>
+</html>
