@@ -26,8 +26,8 @@ This is a profile card that is created using HTML & CSS. It uses CSS properties 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/NandodkarAmogh/profile-card-component](https://github.com/NandodkarAmogh/profile-card-component)
+- Live Site URL: [https://css-profile-card-component.netlify.app/](https://css-profile-card-component.netlify.app/)
 
 ### Built with
 
